@@ -1,36 +1,8 @@
+Abstract
+Oil spills at sea pose severe environmental, economic, and public health risks, making their early detection and mitigation crucial for sustainable maritime operations. This project aims to develop an automated oil spill detection system by integrating Automatic Identification System (AIS) data with satellite-based remote sensing datasets. The proposed system will leverage real-time vessel tracking and anomaly detection algorithms to identify distress signals indicative of potential oil leaks.
 
-🌊 Automated Oil Spill Detection System using AIS & Satellite Data
-🚢 Early Detection | Environmental Protection | AI-Powered Monitoring 🛰️
+The methodology involves monitoring AIS data for irregular patterns, such as sudden speed changes, erratic movements, or unexpected stops, which could indicate vessel distress. Once an anomaly is detected, the corresponding maritime zone will be analyzed using satellite imagery to confirm the presence of an oil spill. Advanced image processing and machine learning techniques will be employed to detect oil slicks, assess their spread, and evaluate vessel orientation changes.
 
-📌 Project Overview
-Oil spills at sea cause severe environmental, economic, and public health hazards. This project develops an AI-powered automated oil spill detection system by integrating Automatic Identification System (AIS) data with satellite-based remote sensing datasets.
+This integrated approach enhances environmental protection, regulatory enforcement, and operational efficiency by enabling timely intervention and reducing the impact of oil spills. The system will provide automated alerts to maritime authorities, ensuring a proactive response mechanism for mitigating oil pollution at sea. The solution will be developed using Python-based algorithms for data processing, anomaly detection, and satellite image analysis, ensuring a scalable and effective framework for oil spill monitoring.
 
-🔍 Key Features
-✅ Real-Time Vessel Monitoring using AIS data
-✅ Anomaly Detection (sudden speed changes, erratic movement, unexpected stops)
-✅ Satellite Image Analysis for oil spill confirmation
-✅ AI & Machine Learning-Based Processing
-✅ Automated Alerts for regulatory authorities
-
-🛠️ Methodology
-📡 AIS Data Monitoring: Track vessel identifiers, position, speed, course, and movements
-🔴 Anomaly Detection: Identify distress patterns using real-time tracking algorithms
-🛰️ Satellite-Based Validation: Analyze marine zones for oil slicks using remote sensing
-🚨 Automated Alerts: Notify authorities for quick response and mitigation
-
-🌍 Study Areas
-The system is designed for real-world application in high-risk maritime zones:
-
-📍 Off the Coast of Mumbai
-📍 Gulf of Mexico – North American Waters
-🖥️ Tech Stack
-🚀 Programming Language: Python 🐍
-📡 Data Sources: AIS real-time tracking, Satellite datasets
-📊 AI & ML Techniques: Anomaly detection, Image processing, Data analytics
-🌎 GIS & Remote Sensing: Geospatial data processing
-
-🚀 Expected Impact
-✔️ Faster Oil Spill Detection ⏳
-✔️ Proactive Environmental Protection 🌱
-✔️ Enhanced Maritime Safety 🚢
-✔️ Data-Driven Regulatory Compliance 📜
+The study will be conducted in designated maritime zones, such as off the coast of Mumbai or the Gulf of Mexico, leveraging historical and real-time datasets. By automating the detection process, this project will contribute to sustainable maritime operations, safeguarding marine ecosystems and economic stability.
