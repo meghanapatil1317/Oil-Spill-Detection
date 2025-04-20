@@ -23,8 +23,8 @@ Feasibility: Objectives are realistic and based on accessible technologies and d
 
 Week 2. Project Planning & Execution
 
-● Milestones and Timeline Adherence:
- A solid project plan would include milestones like:Milestone	Estimated Timeline	Details.
+Milestones and Timeline Adherence:
+A solid project plan would include milestones like:Milestone	Estimated Timeline	Details.
 Literature Review:Week 1–2	Research existing AIS & satellite-based oil spill detection methods,
 Data Collection	Week 3–4	Gather AIS datasets (e.g., MarineCadastre), and satellite data (e.g., Sentinel-1 SAR),
 Data Preprocessing	Week 5–6	Clean and synchronize AIS and satellite data,Model/System Development	Week 7–9	Develop anomaly detection model / image analysis techniques.
@@ -32,7 +32,7 @@ Integration & Testing	Week 10–11	Combine AIS + satellite data workflows; test 
 Final Evaluation & Reporting	Week 12	Document results, create visuals, write final report/presentation.
 Adherence: If you’ve been able to stick fairly close to this, even with slight delays, it shows good planning and adaptability.
 
-● Work Distribution (for Team Projects)
+Work Distribution (for Team Projects)
 If it's a team project, here's an ideal distribution example:
 
 Team Member	Primary Responsibilities:
@@ -42,7 +42,7 @@ Member C	Model development, integration of AIS and satellite data.
 Member D	Validation, testing, documentation, and presentation.
 This shows clear task division, avoids duplication, and ensures accountability.
 If members supported each other across tasks, it shows collaboration and initiative.
-● Initiative and Effort
+Initiative and Effort
 Things that reflect strong initiative and effort:
 Going beyond what's required (e.g., using multiple satellite sources or trying ML techniques like CNNs for oil spill segmentation).
 Seeking help or consulting experts/professors when stuck.
@@ -88,7 +88,7 @@ Alert System (optional):
 Generates alerts if potential illegal spills are detected.
 The codebase is modular, with the following structure:
 
-css
+python
 /oil-spill-detector
 │
 ├── data/
