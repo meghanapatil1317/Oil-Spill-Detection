@@ -1,6 +1,7 @@
 Weekly Logbook - SIH-1655
 Project Title:“Detecting Oil Spills in Marine Environment Using Automatic Identification System (AIS) and Satellite Dataset”
 Smart India Hackathon ID:SIH-1655
+
 Week 1. Problem Statement:
 
 Oil spills pose a serious threat to marine ecosystems, causing long-lasting environmental damage and affecting coastal economies. Traditional monitoring methods are often delayed or limited in coverage. There is a critical need for real-time or near-real-time detection mechanisms that can identify potential oil spills early and accurately.This clearly defines:
