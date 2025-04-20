@@ -1,12 +1,11 @@
-1. Problem Statement
+Week 1. Problem Statement
    Is the problem clearly defined?
 ✅ Yes, it can be— if worded like this:
 Oil spills pose a serious threat to marine ecosystems, causing long-lasting environmental damage and affecting coastal economies. Traditional monitoring methods are often delayed or limited in coverage. There is a critical need for real-time or near-real-time detection mechanisms that can identify potential oil spills early and accurately.This clearly defines:
 The environmental threat.
 Limitations of current methods.
 The need for improved detection.
- 
-.Objective
+Objective
 Are the objectives well stated and achievable?
 ✅ Yes, if you state objectives like the following:
 To leverage Automatic Identification System (AIS) data for tracking vessel movements and identifying anomalous behaviors that may be associated with oil discharges.
@@ -20,7 +19,7 @@ Measurable: System performance can be tested against real casesClarity: Excellen
 Feasibility: Objectives are realistic and based on accessible technologies and data.
 
 
-2. Project Planning & Execution
+Week 2. Project Planning & Execution
 ● Milestones and Timeline Adherence:
 ✅ A solid project plan would include milestones like:Milestone	Estimated Timeline	Details.
 Literature Review:Week 1–2	Research existing AIS & satellite-based oil spill detection methods,
@@ -49,7 +48,7 @@ Handling setbacks (like noisy data or cloudy satellite images) creatively.
 ✅ Effort score would be high if your team showed active problem-solving and stayed engaged even when things got tough.
 
 
-3. Technical Content & Implementation:
+Week 3. Technical Content & Implementation:
 Understanding and Use of Core Concepts:
 This project focuses on the integration of Automatic Identification System (AIS) data and satellite imagery to identify and monitor oil spills in marine environments. The key concepts involved include:
 Remote Sensing: Utilized to analyze satellite images (e.g., from Sentinel-1 SAR data) for anomalies that suggest the presence of oil on water surfaces.
@@ -109,7 +108,7 @@ Scalable design: Built with cloud-compatible tools (GEE, Docker), the system can
 Environmental impact: Promotes cleaner oceans by enabling better surveillance and enforcement of marine pollution laws.
 
 
-4. Results & Testing:
+Week 4. Results & Testing:
 Testing and Validation of the Project
 To validate the performance of the system, we conducted tests using historical AIS data and satellite imagery from known oil spill events. The evaluation process involved:
 Benchmark Datasets: Satellite images from Sentinel-1 during known spill dates (e.g., Deepwater Horizon incident) and AIS logs of ships in the vicinity.
@@ -141,7 +140,7 @@ Real-time AIS feeds.
 Deep learning models for better segmentation.
 
 
-5. Presentation & Documentation
+Week 5. Presentation & Documentation
 Clarity and Structure of the Report
 The project report has been structured to ensure clarity, logical flow, and ease of understanding. Each section—ranging from the introduction to methodology, technical implementation, results, and conclusions—follows a consistent format. 
 Key highlights include:
@@ -168,7 +167,7 @@ Bar charts and line graphs to present statistical analysis
 These visuals were created using tools like Matplotlib, QGIS, and Google Earth Engine, and are embedded throughout both the report and slides to maintain engagement and clarity.
 
 
-6. Team Collaboration:
+Week 6. Team Collaboration:
 As an individual project, all aspects of planning, coordination, and execution were handled independently. This required effective time management and task prioritization. A structured timeline was followed to ensure steady progress across all phases, including:
 Data collection and preprocessing
 Model development and evaluation
@@ -185,7 +184,7 @@ Documentation: Writing the full project report and designing the presentation sl
 This end-to-end involvement provided a deep understanding of the topic and helped build skills in data analysis, geospatial visualization, and machine learning.
 
 
-7. Scalability & Practical Application:
+Week 7. Scalability & Practical Application:
 Real-world Applicability:
 The system developed in this project has significant potential for real-world use, particularly in environmental protection, maritime safety, and policy enforcement. Its ability to combine AIS vessel tracking with satellite imagery provides:
 Early detection of illegal oil spills in oceans and coastal areas
