@@ -19,6 +19,7 @@ Achievable: The tools and datasets exist and are commonly used in research.
 Measurable: System performance can be tested against real casesClarity: Excellent, with a few refinements to the problem statement.
 Feasibility: Objectives are realistic and based on accessible technologies and data.
 
+
 2. Project Planning & Execution
 ● Milestones and Timeline Adherence:
 ✅ A solid project plan would include milestones like:Milestone	Estimated Timeline	Details.
@@ -46,6 +47,8 @@ Seeking help or consulting experts/professors when stuck.
 Documenting progress regularly.
 Handling setbacks (like noisy data or cloudy satellite images) creatively.
 ✅ Effort score would be high if your team showed active problem-solving and stayed engaged even when things got tough.
+
+
 3. Technical Content & Implementation:
 Understanding and Use of Core Concepts:
 This project focuses on the integration of Automatic Identification System (AIS) data and satellite imagery to identify and monitor oil spills in marine environments. The key concepts involved include:
@@ -104,6 +107,8 @@ Multi-source data integration: Combining AIS and satellite data provides more ac
 Real-time spill correlation: Time-synced analysis between ship movement and satellite captures helps pinpoint the cause.
 Scalable design: Built with cloud-compatible tools (GEE, Docker), the system can scale for regional or global use.
 Environmental impact: Promotes cleaner oceans by enabling better surveillance and enforcement of marine pollution laws.
+
+
 4. Results & Testing:
 Testing and Validation of the Project
 To validate the performance of the system, we conducted tests using historical AIS data and satellite imagery from known oil spill events. The evaluation process involved:
@@ -134,6 +139,8 @@ Reliability can be further improved with:
 Higher resolution satellite data.
 Real-time AIS feeds.
 Deep learning models for better segmentation.
+
+
 5. Presentation & Documentation
 Clarity and Structure of the Report
 The project report has been structured to ensure clarity, logical flow, and ease of understanding. Each section—ranging from the introduction to methodology, technical implementation, results, and conclusions—follows a consistent format. 
@@ -159,6 +166,8 @@ Ship trajectory maps with AIS data overlays
 Confusion matrix and accuracy plots for model evaluation
 Bar charts and line graphs to present statistical analysis
 These visuals were created using tools like Matplotlib, QGIS, and Google Earth Engine, and are embedded throughout both the report and slides to maintain engagement and clarity.
+
+
 6. Team Collaboration:
 As an individual project, all aspects of planning, coordination, and execution were handled independently. This required effective time management and task prioritization. A structured timeline was followed to ensure steady progress across all phases, including:
 Data collection and preprocessing
@@ -174,6 +183,8 @@ Model Development: Designing and testing classification models for spill detecti
 Visualization: Creating diagrams, maps, and performance charts.
 Documentation: Writing the full project report and designing the presentation slides.
 This end-to-end involvement provided a deep understanding of the topic and helped build skills in data analysis, geospatial visualization, and machine learning.
+
+
 7. Scalability & Practical Application:
 Real-world Applicability:
 The system developed in this project has significant potential for real-world use, particularly in environmental protection, maritime safety, and policy enforcement. Its ability to combine AIS vessel tracking with satellite imagery provides:
