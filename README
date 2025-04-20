@@ -1,3 +1,63 @@
+Abstract  
+Oil spills at sea pose severe environmental, economic, and public health risks, making their early detection and mitigation crucial for sustainable maritime operations. 
+This project aims to develop an automated oil spill detection system by integrating Automatic Identification System (AIS) data with satellite-based remote sensing datasets.
+The proposed system will leverage real-time vessel tracking and anomaly detection algorithms to identify distress signals indicative of potential oil leaks.
+
+Methodology
+The methodology involves monitoring AIS data for irregular patterns, such as sudden speed changes, erratic movements, or unexpected stops, which could indicate vessel distress. 
+Once an anomaly is detected, the corresponding maritime zone will be analyzed using satellite imagery to confirm the presence of an oil spill. 
+Advanced image processing and machine learning techniques will be employed to detect oil slicks, assess their spread, and evaluate vessel orientation changes.
+
+Modules
+1. Data Collection Module
+Sources: Satellite images (e.g., Sentinel-1, MODIS, RADARSAT), drones, and surveillance footage.
+Formats: Optical images, SAR (Synthetic Aperture Radar), multispectral/hyperspectral data.
+Preprocessing: Remove noise, normalize images, convert raw images into usable formats.
+
+2. Image Preprocessing Module
+Noise Reduction: Use filters (Gaussian, Median) to remove unwanted noise.
+Edge Detection: Apply Canny or Sobel filters to highlight oil spill boundaries.
+Contrast Enhancement: Histogram equalization to improve visibility.
+Segmentation: Convert images to grayscale/binary to isolate oil spill areas.
+
+3. Feature Extraction Module
+Texture Analysis: Extract features like GLCM (Gray Level Co-occurrence Matrix) for surface texture differences.
+Color Features: Identify dark spills against lighter water surfaces.
+SAR Signature Analysis: Analyze backscatter values for oil-water distinction.
+
+4. Machine Learning/Deep Learning Module
+Model Selection:
+Traditional ML: Random Forest, SVM (Support Vector Machine), Decision Trees.
+Deep Learning: CNN (Convolutional Neural Networks), U-Net for segmentation, YOLO for real-time detection.
+
+5. Training & Validation:
+Train models using labeled oil spill datasets.
+Apply data augmentation techniques to improve accuracy.
+Use cross-validation to evaluate performance.
+
+6. Real-Time Detection & Alert Module
+Integration with IoT/Drones: Connect real-time cameras or UAVs (Unmanned Aerial Vehicles).
+Automated Alerts: Generate alerts using APIs when an oil spill is detected.
+Dashboard Visualization: Use GIS tools or web applications for live tracking.
+
+7. Deployment & Monitoring Module
+Cloud Deployment: Host on AWS, Google Cloud, or Azure.
+Edge Computing: Deploy lightweight models on embedded systems for on-site detection.
+Model Updating: Continuous learning with new data to improve detection accuracy.
+
+8. Reporting & Analytics Module
+Report Generation: Automate periodic reports on detected spills.
+Data Logging: Maintain historical records for trend analysis.
+Compliance & Regulations: Ensure adherence to environmental laws.
+
+The study will be conducted in designated maritime zones, such as off the coast of Mumbai or the Gulf of Mexico, leveraging historical and real-time datasets. 
+By automating the detection process, this project will contribute to sustainable maritime operations, safeguarding marine ecosystems and economic stability.
+
+
+
+
+
+
 Weekly Logbook - SIH-1655
 Project Title:“Detecting Oil Spills in Marine Environment Using Automatic Identification System (AIS) and Satellite Dataset”
 Smart India Hackathon ID:SIH-1655
