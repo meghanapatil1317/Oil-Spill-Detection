@@ -1,4 +1,20 @@
-
+        Oil Spill Detection Using Machine Learning
+Objective: Detect oil spills using AIS data and SAR-2 satellite imagery.
+Motivation: Oil spills cause major ecological damage—early detection is critical.
+Phase 1 – AIS-Based Anomaly Detection
+•	Inputs: Latitude, Longitude, SOG, COG, Heading.
+•	Process: Anomaly detection using motion profiling.
+•	Clustering: DBSCAN used to localize suspicious maritime behaviour.
+Phase 2 – SAR-2 Image Analysis
+•	Data: SAR-2 Synthetic Aperture Radar satellite images.
+•	Advantage: Works in all weather, clear oil slick visualization.
+•	Technique: Image processing & deep learning used to detect spills.
+Final Output & Impact
+•	Fusion: AIS + SAR data for accurate, cross-validated oil spill detection.
+•	Applications:
+o	Real-time maritime monitoring.
+o	Environmental protection.
+o	Support for marine agencies.
 
 
 
